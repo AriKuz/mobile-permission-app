@@ -1,0 +1,2 @@
+rootProject.name='Prmission App'
+include ':app'

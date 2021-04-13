@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent" android:paddingLeft= "50dp"
+    android:paddingRight = "50dp"
+    android:paddingTop = "20dp"
+    android:paddingBottom = "20dp" tools:context = ".MainActivity">
+
+    <TextView android:text = "Login" android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/login_tv"
+        android:textSize = "35dp"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true" />
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Permission App"
+        android:id = "@+id/app_tv"
+        android:layout_below = "@+id/login_tv"
+        android:layout_centerHorizontal = "true"
+        android:textColor = "#ff7aff24"
+        android:textSize = "35dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_marginTop = "46dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/app_tv"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/shield_lock_line" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="230dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:layout_marginBottom="-218dp"
+        android:text="Login" />
+
+
+</RelativeLayout>
